@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8em;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #6a6f81;
+    position: relative;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: #19a2ae;
+}
+
+.bg-left {
+    height: 100%;
+    width: 50%;
+    background: url('images/bg-pattern-top.svg') no-repeat 100% 150%;
+}
+
+.bg-right {
+    height: 100%;
+    width: 50%;
+    background: url('images/bg-pattern-top.svg') no-repeat 0% -100%;
+}
+
+.card {
+    width: calc(100vw - 50px);
+    max-width: 350px;
+    background: url('images/bg-pattern-card.svg');
+    border-radius: 15px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.25);
+}
+
+.card-content{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-profile {
+    margin-top: -53px;
+}
+
+.card-profile img {
+    border-radius: 52px;
+    background: white;
+    border: 4px solid white;
+}
+
+.card-block {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.card-name {
+    font-weight: 700;
+    color: 	#2d3248;
+    margin-right: 1rem;
+}
+
+.card-location {
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.card-stats {
+    margin-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e3e3e3;
+}
+
+.stats-block {
+    padding: 3rem 0px 2.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats-heading {
+    font-weight: 700;
+    color: #2d3248;
+}
+
+.stats-info {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    color: 	#6a6f81;
+}
