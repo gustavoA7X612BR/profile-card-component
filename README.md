@@ -28,8 +28,8 @@ I built this project to the design provided. due to structural simplicity, it wa
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-profile-card-component-EdoItPjn1](https://www.frontendmentor.io/solutions/responsive-profile-card-component-EdoItPjn1)
+- Live Site URL: [NETLIFY](https://thirsty-bose-76552f.netlify.app/)
 
 ## My process
 
